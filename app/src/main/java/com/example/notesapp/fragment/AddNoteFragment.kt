@@ -62,8 +62,6 @@ class AddNoteFragment : Fragment(R.layout.fragment_add_note), MenuProvider {
             Toast.makeText(addNoteView.context,"Please enter note title", Toast.LENGTH_SHORT).show()
         }
 
-
-
     }
 
     override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
